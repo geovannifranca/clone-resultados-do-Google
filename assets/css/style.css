@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  max-width: 64rem;
+}
+
+header {
+  padding-top: 28px;
+}
+
+.container_header {
+  margin: auto;
+  width: 100%;
+  max-width: 78rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-profile {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+  gap: 18px;
+}
+
+.logo img {
+  width: 91px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.input-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 15px;
+  border-radius: 25px;
+  padding-right: 15px;
+  width: 575px;
+  height: 40px;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+}
+
+.input-header:hover {
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.14);
+}
+
+.input-header input {
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+
+.input-header .teclado {
+  width: 24px;
+  cursor: pointer;
+}
+
+.input-header .mic {
+  width: 24px;
+  cursor: pointer;
+}
+
+.menu-header img {
+  width: 14px;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 33px;
+  cursor: pointer;
+}
+
+nav {
+  position: relative;
+}
+
+.navbar {
+  width: 100vw;
+  border-bottom: solid 1px rgba(105, 105, 105, 0.342);
+}
+
+.navbar-nav,
+li > a {
+  font-size: 15px;
+  display: flex;
+  gap: 24px;
+  padding: 12px 0 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar-nav a {
+  color: rgb(114, 114, 114);
+}
+
+.navbar-nav a:hover {
+  color: rgb(0, 17, 255);
+}
+
+.navbar-nav li:last-child {
+  margin-left: 40px;
+}
+
+.results {
+  color: rgb(114, 114, 114);
+  font-size: 14px;
+  padding: 15px 0 15px;
+}
